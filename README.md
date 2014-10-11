@@ -42,6 +42,6 @@ $ gem install rails
 ```
 Listo, ahora tienes rails en tu entorno listo para comenzar a hacer aplicaciones, ganar mucho dinero y comprar un par de aviones :)
 
-**Pace out!**
+**Peace out!**
 
 [1]: https://github.com/sstephenson/rbenv
