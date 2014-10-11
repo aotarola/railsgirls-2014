@@ -36,7 +36,7 @@ Finalmente instalamos rails
 ```bash
 $ gem install rails
 ```
-Listo, ahora tienes rails en tu entorno listo para comenzar a hacer aplicaciones y ganar mucho dinero y comprar un par de aviones :)
+Listo, ahora tienes rails en tu entorno listo para comenzar a hacer aplicaciones, ganar mucho dinero y comprar un par de aviones :)
 
 **Pace out!**
 
