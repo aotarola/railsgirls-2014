@@ -1,9 +1,11 @@
 railsgirls-2014
 ===============
 
+Pequeño paso para obtener rails corriendo en nuestra máquina (Mac).
+
 A continuación les presento mi lighting talk para Rails Girls en Santiago de Chile 2014.
 
-Pequeño paso para obtener rails corriendo en nuestra máquina (Mac)
+Comenzamos todos los pasos abriendo una consola/terminal en Mac:
 
 ###Paso 0
 
@@ -15,10 +17,10 @@ Comenzamos la instalación de rvm y un intérprete de ruby:
 $ curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
 
-Una vez instalado rbenv podemos habilitar el auto-completado de versiones de ruby (esto es opcional)
+Una vez que se haya compilado todo, habilitamos la nueva versión de ruby
 
 ```bash
-$ echo 'eval "$(rbenv init -)"' >> ~/bash_profile
+$ source /Users/$USER/.rvm/scripts/rvm
 ```
 
 ###Paso 1
