@@ -29,6 +29,10 @@ Ahora necesitamos instalar ruby, el cual es el lenguaje de programación que rai
 $ rbenv install 1.9.3-p547
 ```
 
+```bash
+$ rbenv global 1.9.3-p547
+```
+
 ###Paso 1
 
 Finalmente instalamos rails
