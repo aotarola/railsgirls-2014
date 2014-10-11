@@ -9,7 +9,7 @@ Pequeño paso para obtener rails corriendo en nuestra máquina (Mac)
 
 En primer lugar necesitaremos instalar un manejador de versiones de ruby (rvm, rbenv), en este caso utilizaremos [rvm][1]
 
-Comenzamos la instalación de rvm:
+Comenzamos la instalación de rvm y un intérprete de ruby:
 
 ```bash
 $ curl -sSL https://get.rvm.io | bash -s stable --ruby
