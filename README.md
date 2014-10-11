@@ -5,32 +5,20 @@ A continuación les presento mi lighting talk para Rails Girls en Santiago de Ch
 
 Pequeño paso para obtener rails corriendo en nuestra máquina (Mac)
 
-###Paso -1
+###Paso 0
 
-En primer lugar necesitaremos instalar un manejador de versiones de ruby (rvm, rbenv), yo recomiendo rbenv, porque me gusta :)
+En primer lugar necesitaremos instalar un manejador de versiones de ruby (rvm, rbenv), en este caso utilizaremos [rvm][1]
 
-Comenzamos la instalación de [rbenv][1]:
+Comenzamos la instalación de rvm:
 
 ```bash
-$ brew install rbenv
+$ curl -sSL https://get.rvm.io | bash -s stable --ruby
 ```
 
 Una vez instalado rbenv podemos habilitar el auto-completado de versiones de ruby (esto es opcional)
 
 ```bash
 $ echo 'eval "$(rbenv init -)"' >> ~/bash_profile
-```
-
-###Paso 0
-
-Ahora necesitamos instalar ruby, el cual es el lenguaje de programación que rails entiende, y nos permitirá hacerno millonarios :)
-
-```bash
-$ rbenv install 1.9.3-p547
-```
-
-```bash
-$ rbenv global 1.9.3-p547
 ```
 
 ###Paso 1
@@ -44,4 +32,4 @@ Listo, ahora tienes rails en tu entorno listo para comenzar a hacer aplicaciones
 
 **Peace out!**
 
-[1]: https://github.com/sstephenson/rbenv
+[1]: http://rvm.io/
